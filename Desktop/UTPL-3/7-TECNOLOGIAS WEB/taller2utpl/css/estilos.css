@@ -1,0 +1,197 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.fondo-imagen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ia.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.fondo-imagen h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navegacion{
+    background-color: #FDA105;
+    padding: 15px;
+    margin-top: -70px; 
+    position: relative;
+  
+}
+.navegacion ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navegacion ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.titulo2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.articulo p{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 25px;
+}
+
+.articulo-ia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.articulo-lista ul{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 23px;
+}
+
+.imagen{
+    margin: auto;
+}
+
+section p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+table thead tr {
+    background-color: #FDA105;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table th {
+    background-color: #366C88;
+    color: white;
+    font-weight: bold;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #FDA105;
+}
+
+footer p {
+    margin: 0;
+    padding: 13px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.formulario label {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input-text, .textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #FDA105;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #366C88;
+}
